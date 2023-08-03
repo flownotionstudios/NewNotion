@@ -31,6 +31,7 @@ async function fetchNotionDatabase() {
     }
 
     const data = await response.json();
+    console.log(data); // Add this line to log the API response
     return data.results;
   } catch (error) {
     console.error(error);
