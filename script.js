@@ -1,5 +1,5 @@
-const NOTION_DATABASE_ID = '7b050bafa16e4fabb6de7d502e8c5bcd';
-const NOTION_API_KEY = 'secret_UbCe5e7QwrpK8fadwOHDxBa1ydcY0HFy32kfUFyUKaD';
+const NOTION_DATABASE_ID = 7b050bafa16e4fabb6de7d502e8c5bcd ;
+const NOTION_API_KEY =  secret_UbCe5e7QwrpK8fadwOHDxBa1ydcY0HFy32kfUFyUKaD ;
 
 let spinning = false;
 const displayedItem = document.getElementById('displayedItem');
