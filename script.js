@@ -15,7 +15,13 @@ async function fetchNotionDatabase() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          // You can customize the query as needed
+          // Simple query to retrieve all items
+          filter: {
+            property: 'Name',
+            text: {
+              is_not_empty: true,
+            },
+          },
         }),
       }
     );
