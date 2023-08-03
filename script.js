@@ -67,3 +67,6 @@ function startSpinning() {
     setTimeout(spin, spinDuration);
   }
 }
+
+// Add the event listener for the button click
+document.querySelector('button').addEventListener('click', startSpinning);
